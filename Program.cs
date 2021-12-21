@@ -36,7 +36,7 @@ namespace Homework_1_v._1
                 Console.WriteLine("Сегодня воскресенье");
                     break;
             }
-            Console.ReadKey() // Сообщение для проверки работы git
+            Console.ReadKey(); // Сообщение для проверки работы git
         }
     }
 }
