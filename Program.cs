@@ -8,7 +8,7 @@ namespace Homework_1_v._1
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)   // Можно через enum!
         {
             Console.WriteLine("Введите номер дня недели (от 1 до 7)");
             int DayOfWeek = Convert.ToInt32(Console.ReadLine());
