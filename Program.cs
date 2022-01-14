@@ -15,7 +15,7 @@ namespace Homework_1_v._1
             switch (DayOfWeek)
             {
                 case 1:
-                    Console.WriteLine("Сегодня понедельник");
+                    Console.WriteLine("Сегодня понедельник");    // 1 => "Понедельник";
                     break;
                 case 2:
                     Console.WriteLine("Сегодня вторник");
