@@ -66,7 +66,7 @@ namespace Homework_4
                 Console.WriteLine();
             }
         }
-        static void CountOfPandN(int[,] matrix, out int Positive, out int Negative)
+        static void CountOfPandN(int[,] matrix, out int Positive, out int Negative) //Счётчик положительных и отрицательных
         {
             Positive = 0; Negative = 0;
             foreach (int x in matrix)
@@ -75,7 +75,7 @@ namespace Homework_4
                 else if (x > 0) Positive++;
             }
         }
-        static void Sort(int[,] matrix,in int StringOfMatrix,in int ColumnOfMarix)
+        static void Sort(int[,] matrix,in int StringOfMatrix,in int ColumnOfMarix) // Сортировка построчка
         {
             for (int i = 0; i < StringOfMatrix; i++)
             {
@@ -96,7 +96,7 @@ namespace Homework_4
 
             }
         }
-        static void Invers(int[,] matrix)
+        static void Invers(int[,] matrix) // Инверсия построчно
         {
             int t = 0;
             for (int i = 0; i < matrix.GetLength(1) / 2; i++)
