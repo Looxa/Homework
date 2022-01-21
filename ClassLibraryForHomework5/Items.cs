@@ -51,7 +51,7 @@ namespace ClassLibraryForHomework5
                 }
                 else
                 {
-                    PriceCount = listOfItems[i].price + listOfItems[i - 1].price;
+                    PriceCount = listOfItems[i].price + PriceCount;
                 }
             }
             Console.WriteLine("Цена всего инвентаря: " + PriceCount);
