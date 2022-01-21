@@ -46,18 +46,6 @@ namespace Homework_5
                             Console.WriteLine("Неверно введена цена");
                         }
 
-                     /*   Console.WriteLine("Введите id продукта");
-                        string inputId = Console.ReadLine();
-                        resultTryParse = double.TryParse(inputId, out var ReadId);
-                        if (resultTryParse == true)
-                        {
-                            item.price = ReadId;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Неверно введена цена");
-                        }
-                     */
                         list.Add(item.name, item.price);
                         break;
                      
