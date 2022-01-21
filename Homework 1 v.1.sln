@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework 3", "Homework 3\Ho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework 4", "Homework 4\Homework 4.csproj", "{7D20CCCD-14BE-4591-9712-0D43D1E44374}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework 5", "Homework 5\Homework 5\Homework 5.csproj", "{6E92345D-6E76-4D9C-9302-46E5754FD19A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework 5 Product Inventory Project", "Homework 5\Homework 5\Homework 5 Product Inventory Project.csproj", "{6E92345D-6E76-4D9C-9302-46E5754FD19A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryForHomework5", "ClassLibraryForHomework5\ClassLibraryForHomework5.csproj", "{CBD745E7-C9B7-4E33-A1E2-521CF24E10D0}"
 EndProject

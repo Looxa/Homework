@@ -46,7 +46,7 @@ namespace Homework_5
                             Console.WriteLine("Неверно введена цена");
                         }
 
-                        Console.WriteLine("Введите id продукта");
+                     /*   Console.WriteLine("Введите id продукта");
                         string inputId = Console.ReadLine();
                         resultTryParse = double.TryParse(inputId, out var ReadId);
                         if (resultTryParse == true)
@@ -57,13 +57,14 @@ namespace Homework_5
                         {
                             Console.WriteLine("Неверно введена цена");
                         }
-                        list.Add(item.id, item.name, item.price);
+                     */
+                        list.Add(item.name, item.price);
                         break;
-
+                     
                     case 3:
                         Console.WriteLine("Введите id продукта для удаления");
-                        int n = int.Parse(Console.ReadLine());
-                        list.Delete(n);
+                        int DelNum = int.Parse(Console.ReadLine());
+                        list.Delete(DelNum);
                         break;
                     default:
                         Console.WriteLine("Неверно выбрано действие");
