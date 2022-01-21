@@ -43,7 +43,7 @@ namespace ClassLibraryForHomework5
             double PriceCount = 0;
             for (int i = 0; i < listOfItems.Count; i++)
             {
-                listOfItems[i].id = listOfItems[i].id + i;
+                listOfItems[i].id = i;
                 Console.WriteLine("Id: " + listOfItems[i].id + "\n Имя продукта: " + listOfItems[i].name + "\n Цена: " + listOfItems[i].price);
                 if (i < 1)
                 {
