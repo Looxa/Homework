@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ClassLibraryForHomework5;
+using ClassLibraryForHomework5.Struct;
+using ClassLibraryForHomework5.Class;
 
 namespace Homework_5
 {
@@ -16,46 +17,46 @@ namespace Homework_5
 
             while (true)
             {
-                Console.WriteLine("Выберите действие : \nЦифра 1 - Список продуктов" +
-                "\nЦифра 2 - Добавить продукт" +
-                " \nЦифра 3 - Удалить продукт" + 
-                "\nЦифра 4 - Выйти");
+                Console.WriteLine("|||Выберите действие : \n\nЦифра 1 - Список продуктов через класс" +
+                "\nЦифра 2 - Добавить продукт через класс" +
+                " \nЦифра 3 - Удалить продукт через класс" +
+                "\nЦифра 4 - Список продуктов через структуру (не готово)" +
+                "\nЦифра 5 - Добавить продукт через структуру (не готово)" +
+                " \nЦифра 6 - Удалить продукт через структуру (не готово)" +
+                "\nЦифра 7 - Выйти\n");
                 int SwitchAction = Convert.ToInt32(Console.ReadLine());
-                if (SwitchAction == 4) break;
+                if (SwitchAction == 7) break;
 
                 switch (SwitchAction)
                 {
                     case 1:
-
                         list.List();
                         break;
 
                     case 2:
 
-                        Console.WriteLine("Введите наименование продукта");
-                        item.name = Console.ReadLine();
-                        Console.WriteLine("Введите цену продукта");
-                        string inputPrice = Console.ReadLine();
-                        bool resultTryParse = double.TryParse(inputPrice, out var ReadPrice);
-                        if (resultTryParse == true)
-                        {
-                            item.price = ReadPrice;
-                        }
-                        else
-                        {
-                            Console.WriteLine("Неверно введена цена");
-                        }
+                        list.Add();
+                        break;
 
-                        list.Add(item.name, item.price);
-                        break;
-                     
                     case 3:
-                        Console.WriteLine("Введите id продукта для удаления");
-                        int DelNum = int.Parse(Console.ReadLine());
-                        list.Delete(DelNum);
+
+                        list.Delete();
                         break;
+
+                    case 4:
+
+                        break;
+
+                    case 5:
+
+                        break;
+
+                    case 6:
+
+                        break;
+
                     default:
-                        Console.WriteLine("Неверно выбрано действие");
+                        Console.WriteLine("Неверно выбрано действие\n");
                         break;
                 }
             }

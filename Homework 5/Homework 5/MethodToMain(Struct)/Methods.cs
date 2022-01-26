@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ClassLibraryForHomework5.Struct
+namespace Homework_5
 {
-    public struct InventoryStruct
+    internal class InventoryInitialization
     {
-
+        
     }
 }
