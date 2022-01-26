@@ -8,6 +8,6 @@ namespace ClassLibraryForHomework5.Struct
 {
     public struct InventoryStruct
     {
-
+        // Нельзя сделать List<> из-за версии С#
     }
 }
